@@ -1,3 +1,5 @@
 <svg onload="alert('xss')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-    <script>alert('XSS')</script>
+    <script><script><![CDATA[
+  alert('JS in SVG');
+]]></script></script>
 </svg>
