@@ -11,6 +11,7 @@
     </script>
   </head>
   <body onload="alert('JS IN XML FROM SSRF ! ')">
+    <img src="x" onerror="alert('JS IN XML FROM SSRF ! ')" />
     <h1>This is an XML file with JavaScript</h1>
     <p>When this page loads, a JavaScript alert should appear.</p>
   </body>
