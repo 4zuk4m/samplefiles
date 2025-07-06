@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>XML with JavaScript</title>
+    <script type="text/javascript">
+      // This runs when the page finishes loading
+      function showAlert() {
+        alert("Hello from XML with JavaScript!");
+      }
+    </script>
+  </head>
+  <body onload="showAlert()">
+    <h1>This is an XML file with JavaScript</h1>
+    <p>When this page loads, a JavaScript alert should appear.</p>
+  </body>
+</html>
